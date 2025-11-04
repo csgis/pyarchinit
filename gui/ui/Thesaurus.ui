@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <ui version="4.0">
  <class>DialogThesaurus</class>
  <widget class="QDialog" name="DialogThesaurus">
@@ -473,7 +473,7 @@
   </property>
   <layout class="QGridLayout" name="gridLayout_6">
    <item row="8" column="0" colspan="2">
-    <widget class="QWebView" name="webView_adarte" native="true">
+    <widget class="QTextBrowser" name="webView_adarte" native="true">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
        <horstretch>0</horstretch>
@@ -493,7 +493,7 @@
      </property>
      <property name="url" stdset="0">
       <url>
-       <string/>
+       <string />
       </url>
      </property>
      <property name="zoomFactor" stdset="0">
@@ -531,7 +531,7 @@
           <string>Next rec</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -545,7 +545,7 @@
           <string>Last rec</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -564,7 +564,7 @@
           <string>New record</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -583,7 +583,7 @@
           <string>Save</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -605,7 +605,7 @@
           <string>new search</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -624,7 +624,7 @@
           <string>search !!!</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -643,7 +643,7 @@
           <string>Order by</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -662,7 +662,7 @@
           <string>View alls records</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -676,7 +676,7 @@
           <string>Prev rec</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -690,7 +690,7 @@
           <string>First rec</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -712,7 +712,7 @@
           <string>Delete record</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -726,7 +726,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;import  thesaurus from csv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="icon">
           <iconset resource="../../resources/resources.qrc">
@@ -928,7 +928,7 @@
          <bool>true</bool>
         </property>
         <property name="toolTip">
-         <string/>
+         <string />
         </property>
         <property name="editable">
          <bool>true</bool>
@@ -1132,7 +1132,7 @@
           <enum>QFrame::Sunken</enum>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1167,7 +1167,7 @@
           <enum>QFrame::Sunken</enum>
          </property>
          <property name="text">
-          <string/>
+          <string />
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -1314,12 +1314,7 @@
    <header>qgscollapsiblegroupbox.h</header>
    <container>1</container>
   </customwidget>
-  <customwidget>
-   <class>QWebView</class>
-   <extends>QWidget</extends>
-   <header>QtWebKit/QWebView</header>
-  </customwidget>
- </customwidgets>
+  </customwidgets>
  <tabstops>
   <tabstop>pushButton_connect</tabstop>
   <tabstop>pushButton_prev_rec</tabstop>
@@ -1335,7 +1330,7 @@
   <tabstop>comboBox_lingua</tabstop>
  </tabstops>
  <resources>
-  <include location="../../resources/resources.qrc"/>
+  <include location="../../resources/resources.qrc" />
  </resources>
  <connections>
   <connection>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <ui version="4.0">
  <class>Dialog_Config</class>
  <widget class="QDialog" name="Dialog_Config">
@@ -662,7 +662,7 @@
       <bool>true</bool>
      </property>
      <property name="resize" stdset="0">
-      <string/>
+      <string />
      </property>
      <widget class="QWidget" name="tab">
       <property name="sizePolicy">
@@ -774,7 +774,7 @@
              <bool>true</bool>
             </property>
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="echoMode">
              <enum>QLineEdit::Normal</enum>
@@ -804,7 +804,7 @@
           <item row="1" column="1">
            <widget class="QLineEdit" name="lineEdit_Host">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="placeholderText">
              <string>host</string>
@@ -856,7 +856,7 @@
           <item row="2" column="1">
            <widget class="QLineEdit" name="lineEdit_Port">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="placeholderText">
              <string>port</string>
@@ -866,7 +866,7 @@
           <item row="4" column="1">
            <widget class="QLineEdit" name="lineEdit_User">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="placeholderText">
              <string>dbuser</string>
@@ -929,7 +929,7 @@
           <item row="1" column="1" colspan="3">
            <widget class="QLineEdit" name="lineEdit_Thumb_resize">
             <property name="placeholderText">
-             <string/>
+             <string />
             </property>
            </widget>
           </item>
@@ -960,7 +960,7 @@
                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Funzione per allinere e aggiornare db postgres&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
-               <string/>
+               <string />
               </property>
               <property name="icon">
                <iconset resource="../../resources/resources.qrc">
@@ -1007,7 +1007,7 @@
                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Funzione per aggiornare e allineare i database sqlite&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
-               <string/>
+               <string />
               </property>
               <property name="icon">
                <iconset resource="../../resources/resources.qrc">
@@ -1042,7 +1042,7 @@
                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Inserire l'EPSG del database. funzione da utilizzare quando si deve aggiornare /allineare il database&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
-               <string/>
+               <string />
               </property>
               <property name="placeholderText">
                <string>insert epsg code</string>
@@ -1067,7 +1067,7 @@
           <item row="1" column="5">
            <widget class="QPushButton" name="pbnOpenresizeDirectory">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="icon">
              <iconset resource="../../resources/resources.qrc">
@@ -1106,7 +1106,7 @@
              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Advance setting per comparare  il databse sqlite in uso e verificare il mismatch per poter correggere manualmente in caso l'allineamento automatico non funzioni&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="icon">
              <iconset resource="../../resources/resources.qrc">
@@ -1117,10 +1117,10 @@
           <item row="0" column="1" colspan="3">
            <widget class="QLineEdit" name="lineEdit_Thumb_path">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="placeholderText">
-             <string/>
+             <string />
             </property>
            </widget>
           </item>
@@ -1150,7 +1150,7 @@
           <item row="0" column="5">
            <widget class="QPushButton" name="pbnOpenthumbDirectory">
             <property name="text">
-             <string/>
+             <string />
             </property>
             <property name="icon">
              <iconset resource="../../resources/resources.qrc">
@@ -1229,7 +1229,7 @@
           <item row="2" column="1" colspan="3">
            <widget class="QLineEdit" name="lineEdit_logo">
             <property name="placeholderText">
-             <string/>
+             <string />
             </property>
            </widget>
           </item>
@@ -1314,7 +1314,7 @@
             <item row="4" column="0">
              <widget class="QLabel" name="label_32">
               <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:10pt;"&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
                <string>Inserisci password</string>
@@ -1358,7 +1358,7 @@
             <item row="3" column="0">
              <widget class="QLabel" name="label_31">
               <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:10pt;"&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
                <string>Inserisci utente</string>
@@ -1366,12 +1366,12 @@
              </widget>
             </item>
             <item row="5" column="1">
-             <widget class="QgsProjectionSelectionWidget" name="selectorCrsWidget"/>
+             <widget class="QgsProjectionSelectionWidget" name="selectorCrsWidget" />
             </item>
             <item row="2" column="0">
              <widget class="QLabel" name="label_15">
               <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:10pt;"&gt;puoi inserire il numero di porta differente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
                <string>Inserisci numero porta</string>
@@ -1410,7 +1410,7 @@
             <item row="0" column="0">
              <widget class="QLabel" name="label_12">
               <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Puoi inserire un nome differente da quello presente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:10pt;"&gt;Puoi inserire un nome differente da quello presente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
                <string>Inserisci nome db</string>
@@ -1467,7 +1467,7 @@
           <item row="0" column="0">
            <layout class="QGridLayout" name="gridLayout_5">
             <item row="1" column="1">
-             <widget class="QgsProjectionSelectionWidget" name="selectorCrsWidget_sl"/>
+             <widget class="QgsProjectionSelectionWidget" name="selectorCrsWidget_sl" />
             </item>
             <item row="0" column="3">
              <widget class="QPushButton" name="pushButton_crea_database_sl">
@@ -1508,7 +1508,7 @@
             <item row="0" column="0">
              <widget class="QLabel" name="label_14">
               <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Puoi inserire un nome differente da quello presente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:10pt;"&gt;Puoi inserire un nome differente da quello presente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
               </property>
               <property name="text">
                <string>Inserisci nome db</string>
@@ -1591,7 +1591,7 @@
            </property>
            <item>
             <property name="text">
-             <string/>
+             <string />
             </property>
            </item>
            <item>
@@ -1771,7 +1771,7 @@
           <widget class="QComboBox" name="comboBox_server_rd">
            <item>
             <property name="text">
-             <string/>
+             <string />
             </property>
            </item>
            <item>
@@ -1806,12 +1806,12 @@
          <item row="8" column="2">
           <widget class="QLineEdit" name="lineEdit_port_rd">
            <property name="text">
-            <string/>
+            <string />
            </property>
           </widget>
          </item>
          <item row="16" column="2">
-          <widget class="QLineEdit" name="lineEdit_host_wt"/>
+          <widget class="QLineEdit" name="lineEdit_host_wt" />
          </item>
          <item row="17" column="0">
           <widget class="QLabel" name="label_24">
@@ -1857,7 +1857,7 @@
            </property>
            <item>
             <property name="text">
-             <string/>
+             <string />
             </property>
            </item>
            <item>
@@ -2050,7 +2050,7 @@
            </property>
            <item>
             <property name="text">
-             <string/>
+             <string />
             </property>
            </item>
            <item>
@@ -2068,10 +2068,10 @@
          <item row="6" column="2">
           <widget class="QLineEdit" name="lineEdit_database_rd">
            <property name="text">
-            <string/>
+            <string />
            </property>
            <property name="placeholderText">
-            <string/>
+            <string />
            </property>
           </widget>
          </item>
@@ -2106,7 +2106,7 @@
          <item row="4" column="2">
           <widget class="QLineEdit" name="lineEdit_host_rd">
            <property name="text">
-            <string/>
+            <string />
            </property>
           </widget>
          </item>
@@ -2258,10 +2258,10 @@
          <item row="17" column="2">
           <widget class="QLineEdit" name="lineEdit_database_wt">
            <property name="text">
-            <string/>
+            <string />
            </property>
            <property name="placeholderText">
-            <string/>
+            <string />
            </property>
           </widget>
          </item>
@@ -2273,10 +2273,10 @@
           </widget>
          </item>
          <item row="18" column="2">
-          <widget class="QLineEdit" name="lineEdit_port_wt"/>
+          <widget class="QLineEdit" name="lineEdit_port_wt" />
          </item>
          <item row="19" column="2">
-          <widget class="QLineEdit" name="lineEdit_username_wt"/>
+          <widget class="QLineEdit" name="lineEdit_username_wt" />
          </item>
          <item row="8" column="7">
           <widget class="QLabel" name="label_23">
@@ -2319,7 +2319,7 @@
          <item row="12" column="2">
           <widget class="QLineEdit" name="lineEdit_username_rd">
            <property name="text">
-            <string/>
+            <string />
            </property>
           </widget>
          </item>
@@ -2373,7 +2373,7 @@
        <item row="1" column="0">
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
-          <widget class="QLineEdit" name="lineEditGraphviz"/>
+          <widget class="QLineEdit" name="lineEditGraphviz" />
          </item>
          <item>
           <widget class="QPushButton" name="pushButtonGraphviz">
@@ -2419,7 +2419,7 @@
         </widget>
        </item>
        <item row="1" column="0">
-        <widget class="QLineEdit" name="lineEditPostgres"/>
+        <widget class="QLineEdit" name="lineEditPostgres" />
        </item>
        <item row="1" column="1">
         <widget class="QPushButton" name="pushButtonPostgres">
@@ -2522,7 +2522,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n1725UcbFWQ&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Video Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=n1725UcbFWQ"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;Video Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="openExternalLinks">
                   <bool>true</bool>
@@ -2555,7 +2555,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.facebook.com/UnaQuantumInc&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;unaquantum&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="right"&gt;&lt;a href="https://www.facebook.com/UnaQuantumInc"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;unaquantum&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="margin">
                   <number>0</number>
@@ -2571,7 +2571,7 @@
               </layout>
              </item>
              <item row="2" column="0" rowspan="2">
-              <widget class="QWebView" name="webView" native="true">
+              <widget class="QTextBrowser" name="webView" native="true">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
                  <horstretch>0</horstretch>
@@ -2935,12 +2935,7 @@
    <header>qgsprojectionselectionwidget.h</header>
    <container>1</container>
   </customwidget>
-  <customwidget>
-   <class>QWebView</class>
-   <extends>QWidget</extends>
-   <header>QtWebKit/QWebView</header>
-  </customwidget>
- </customwidgets>
+  </customwidgets>
  <tabstops>
   <tabstop>comboBox_Database</tabstop>
   <tabstop>lineEdit_Host</tabstop>
@@ -2949,8 +2944,8 @@
   <tabstop>lineEdit_User</tabstop>
  </tabstops>
  <resources>
-  <include location="resources.qrc"/>
-  <include location="../../resources/resources.qrc"/>
+  <include location="resources.qrc" />
+  <include location="../../resources/resources.qrc" />
  </resources>
  <connections>
   <connection>

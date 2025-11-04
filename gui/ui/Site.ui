@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <ui version="4.0">
  <class>DialogSite</class>
  <widget class="QDialog" name="DialogSite">
@@ -611,7 +611,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -652,7 +652,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -803,7 +803,7 @@
         <string>Save</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -837,7 +837,7 @@
         <string>First rec</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -895,7 +895,7 @@
         <string>Prev rec</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -929,7 +929,7 @@
         <string>Delete record</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -952,7 +952,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Carica il view puntuale del sito&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -983,7 +983,7 @@
         <string>View alls records</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1014,7 +1014,7 @@
         <string>search !!!</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1045,7 +1045,7 @@
         <string>Order by</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1068,7 +1068,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Layer archeologici da vettorializzare (sito corrente)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1094,7 +1094,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Layer archeologici da vettorializzare (tutti i siti)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1125,7 +1125,7 @@
         <string>Next rec</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1156,7 +1156,7 @@
         <string>new search</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1187,7 +1187,7 @@
         <string>New record</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1218,7 +1218,7 @@
         <string>Last rec</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1270,7 +1270,7 @@
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;R script for least cost path&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
-        <string/>
+        <string />
        </property>
        <property name="icon">
         <iconset resource="../../resources/resources.qrc">
@@ -1629,7 +1629,7 @@
                  <bool>true</bool>
                 </property>
                 <property name="whatsThis">
-                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l1nVPHf_1wI&amp;t=50s&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Doc&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=l1nVPHf_1wI&amp;t=50s"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;Doc&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="editable">
                  <bool>true</bool>
@@ -1763,7 +1763,7 @@
                  </font>
                 </property>
                 <property name="text">
-                 <string/>
+                 <string />
                 </property>
                 <property name="icon">
                  <iconset resource="../../resources/resources.qrc">
@@ -1849,7 +1849,7 @@
             <normaloff>:/icons/toolbox.png</normaloff>:/icons/toolbox.png</iconset>
           </attribute>
           <attribute name="title">
-           <string/>
+           <string />
           </attribute>
           <widget class="QLabel" name="label_14">
            <property name="geometry">
@@ -2009,7 +2009,7 @@ Step 3 - Riavviare Qgis e cliccare sul pulsante Run Test per verificare l'output
                </size>
               </property>
               <property name="text">
-               <string/>
+               <string />
               </property>
               <property name="icon">
                <iconset resource="../../resources/resources.qrc">
@@ -2379,7 +2379,7 @@ background-color: rgb(255, 255, 127);</string>
                       </font>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l1nVPHf_1wI&amp;t&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Video Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=l1nVPHf_1wI&amp;t"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;Video Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="openExternalLinks">
                       <bool>true</bool>
@@ -2412,7 +2412,7 @@ background-color: rgb(255, 255, 127);</string>
                       </font>
                      </property>
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;a href=&quot;https://www.facebook.com/UnaQuantumInc&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;unaquantum&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="right"&gt;&lt;a href="https://www.facebook.com/UnaQuantumInc"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;unaquantum&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="margin">
                       <number>0</number>
@@ -2428,7 +2428,7 @@ background-color: rgb(255, 255, 127);</string>
                   </layout>
                  </item>
                  <item row="2" column="0" rowspan="2">
-                  <widget class="QWebView" name="webView" native="true">
+                  <widget class="QTextBrowser" name="webView" native="true">
                    <property name="sizePolicy">
                     <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
                      <horstretch>0</horstretch>
@@ -2532,14 +2532,9 @@ background-color: rgb(255, 255, 127);</string>
    <header>qgsdockwidget.h</header>
    <container>1</container>
   </customwidget>
-  <customwidget>
-   <class>QWebView</class>
-   <extends>QWidget</extends>
-   <header>QtWebKit/QWebView</header>
-  </customwidget>
- </customwidgets>
+  </customwidgets>
  <resources>
-  <include location="../../resources/resources.qrc"/>
+  <include location="../../resources/resources.qrc" />
  </resources>
  <connections>
   <connection>
